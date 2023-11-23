@@ -1,0 +1,7 @@
+{
+    "alertmodelbtn":".navbar-right > :nth-child(2) > .dropdown-toggle",
+    "bootbtn"      :".open > .dropdown-menu > :nth-child(1) > a",
+    "autoclosebtn" :"#autoclosable-btn-success"
+   
+
+}

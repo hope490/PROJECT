@@ -1,0 +1,6 @@
+{
+    "alertmodelbtn1":".navbar-right > :nth-child(2) > .dropdown-toggle",
+    "windowpopbtn":".open > .dropdown-menu > :nth-child(3) > a",
+    "twitterbtn":":nth-child(2) > .panel > .panel-body > :nth-child(1) > .btn",
+    "followallbtn":"#followall"
+}

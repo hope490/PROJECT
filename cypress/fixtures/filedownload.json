@@ -1,0 +1,8 @@
+{
+    "alertmodelbtn1":".navbar-right > :nth-child(2) > .dropdown-toggle",
+    "filedownloadbtn":".open > .dropdown-menu > :nth-child(6) > a",
+    "typefieldbtn":"#textbox",
+    "Generatefilebtn":"#create",
+    "downloadbtn":"#link-to-download"
+    
+}

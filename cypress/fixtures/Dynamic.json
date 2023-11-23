@@ -1,0 +1,8 @@
+{
+    "othersbtn":":nth-child(4) > .dropdown-toggle",
+    "Dynamicbtn":".open > .dropdown-menu > :nth-child(2) > a",
+    "getuserbtn":"#save",
+    "dragbtn":".open > .dropdown-menu > :nth-child(1) > a",
+    "draggablebtn":"#todrag > :nth-child(2)",
+    "dropherebtn":"#mydropzone"
+}

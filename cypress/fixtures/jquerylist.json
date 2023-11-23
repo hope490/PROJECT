@@ -1,0 +1,11 @@
+{
+    "listboxbtn":".navbar-right > :nth-child(3) > .dropdown-toggle",
+    "jquerylistbtn":".open > .dropdown-menu > :nth-child(2) > a",
+    "addallbtn":".pAddAll",
+    "Laurabtn":"[data-id='6']",
+    "removebtn":".pRemove",
+    "removeallbtn":".pRemoveAll"
+
+
+    
+}

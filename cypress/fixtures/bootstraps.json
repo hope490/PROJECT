@@ -1,0 +1,7 @@
+{
+    "alertmodelbtn1":".navbar-right > :nth-child(2) > .dropdown-toggle",
+    "bootstpbtn":".open > .dropdown-menu > :nth-child(2) > a",
+    "launchbtn"  :":nth-child(2) > .col-md-4 > .panel > .panel-body > [data-toggle='modal']",
+     "savechangesbtn":"#myModal0 > .modal-dialog > .modal-content > .modal-footer > .btn-primary"
+   
+}
