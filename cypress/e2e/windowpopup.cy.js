@@ -16,7 +16,8 @@ it("user should click windowpop",()=>{
   cy.get(knot.twitterbtn).click()
   cy.get(knot.twitterbtn).type("moghaluhope@gmail.com")
   cy.get(knot.followallbtn).click()
-
+  
+    
 
 })
 

@@ -18,6 +18,8 @@ it("user can click jquery",()=>{
  cy.get(duplictate.Laurabtn).click()
  //cy.get(duplictate.removebtn).click()
  cy.get(duplictate.removeallbtn).click()
+ cy.get(duplictate.Helenabtn).click()
+ cy.get(duplictate.addbtn).click()
  
 
  })

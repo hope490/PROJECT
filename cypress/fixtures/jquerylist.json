@@ -4,7 +4,9 @@
     "addallbtn":".pAddAll",
     "Laurabtn":"[data-id='6']",
     "removebtn":".pRemove",
-    "removeallbtn":".pRemoveAll"
+    "removeallbtn":".pRemoveAll",
+    "Helenabtn":"[data-id='11']",
+    "addbtn":".pAdd"
 
 
     
