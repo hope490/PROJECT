@@ -18,21 +18,21 @@ describe("login successfully", () => {
 
 
 
-  it("user can fill details", () => {
-    cy.get(':nth-child(1) > :nth-child(2) > .dropdown-toggle').click()
+  it.only("user can fill details", () => {
+    cy.get(':nth-child(1) > :nth-child(2) > .dropdown-toggle').should('contain','Button')
     cy.get('.open > .dropdown-menu > :nth-child(1) > a').click()
     cy.get('.input-group-addon > .glyphicon').click()
     cy.get('tbody > :nth-child(1) > :nth-child(5)').click()
+    cy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .datepicker-switch').click()
+    //cy.get('.datepicker-months > .table-condensed > tbody > tr > td > :nth-child(8)').click()
+    //cy.get('#sandbox-container1 > .input-group > .form-control').click()
+   // cy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .datepicker-switch').click()
+    //cy.get('.datepicker-months > .table-condensed > tbody > tr > td > .focused').click()
+    //cy.get('tbody > :nth-child(1) > .today').click()
+   // cy.get('[placeholder="Start date"]').click()
     //cy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .datepicker-switch').click()
     //cy.get('.datepicker-months > .table-condensed > tbody > tr > td > :nth-child(8)').click()
-    cy.get('#sandbox-container1 > .input-group > .form-control').click()
-    cy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .datepicker-switch').click()
-    cy.get('.datepicker-months > .table-condensed > tbody > tr > td > .focused').click()
-    cy.get('tbody > :nth-child(1) > .today').click()
-    cy.get('[placeholder="Start date"]').click()
-    cy.get('.datepicker-days > .table-condensed > thead > :nth-child(2) > .datepicker-switch').click()
-    cy.get('.datepicker-months > .table-condensed > tbody > tr > td > :nth-child(8)').click()
-    cy.get('tbody > :nth-child(3) > :nth-child(3)').click()
+    //cy.get('tbody > :nth-child(3) > :nth-child(3)').click()
 
 
 
